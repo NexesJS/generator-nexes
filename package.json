@@ -1,0 +1,33 @@
+{
+  "name": "generator-nexes",
+  "version": "0.0.0",
+  "description": "Generate a nexes project",
+  "repository": "git@github.com:NexesJS/generator-nexes.git",
+  "author": "Ghost Foundation",
+  "license": "MIT",
+  "main": "generators/index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js --cache",
+    "pretest": "yarn lint",
+    "test": "NODE_ENV=testing mocha -- $(find test -name '*.test.js')"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "nexes",
+    "app",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "eslint": "4.15.0",
+    "eslint-plugin-ghost": "0.0.21",
+    "mocha": "5.0.0",
+    "yeoman-assert": "3.1.0",
+    "yeoman-test": "1.7.0"
+  },
+  "dependencies": {
+    "chalk": "2.3.0",
+    "yeoman-generator": "2.0.2"
+  }
+}
