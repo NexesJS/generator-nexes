@@ -24,7 +24,7 @@ yo nexes
 
 # Copyright & License
 
-Copyright (c) 2018 Ghost Foundation - Released under the [MIT license](LICENSE).
+Copyright (c) 2018-2019 Ghost Foundation - Released under the [MIT license](LICENSE).
 
 [npm-image]: https://badge.fury.io/js/generator-nexes.svg
 [npm-url]: https://npmjs.org/package/generator-nexes
